@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="508" height="420" viewBox="0 0 508 420" role="img" aria-label="Product UML class diagram">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text {font-family: monospace; font-size:13px; fill:#172033} .title {font-family: sans-serif;font-size:19px;font-weight:700}</style>
+<rect x="30" y="50" width="448" height="298" fill="white" stroke="#334155" stroke-width="2"/>
+<path d="M30 100 H478 M30 198 H478" stroke="#334155" stroke-width="2"/>
+<text class="title" x="254.0" y="82" text-anchor="middle">Product</text>
+<text x="46" y="129">- id : Long</text>
+<text x="46" y="155">- name : String</text>
+<text x="46" y="181">- price : double</text>
+<text x="46" y="227">+ Product()</text>
+<text x="46" y="253">+ Product(id : Long, name : String, price : double)</text>
+<text x="46" y="279">+ getId() : Long</text>
+<text x="46" y="305">+ getName() : String</text>
+<text x="46" y="331">+ getPrice() : double</text>
+</svg>

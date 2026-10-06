@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1298" height="420" viewBox="0 0 1298 420" role="img" aria-label="CustomerAddress UML class diagram">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text {font-family: monospace; font-size:13px; fill:#172033} .title {font-family: sans-serif;font-size:19px;font-weight:700}</style>
+<rect x="30" y="50" width="608" height="350" fill="white" stroke="#334155" stroke-width="2"/>
+<path d="M30 100 H638 M30 224 H638" stroke="#334155" stroke-width="2"/>
+<text class="title" x="334.0" y="82" text-anchor="middle">Customer</text>
+<text x="46" y="129">- id : Long</text>
+<text x="46" y="155">- name : String</text>
+<text x="46" y="181">- email : String</text>
+<text x="46" y="207">- address : Address</text>
+<text x="46" y="253">+ Customer()</text>
+<text x="46" y="279">+ Customer(id : Long, name : String, email : String, address : Address)</text>
+<text x="46" y="305">+ getId() : Long</text>
+<text x="46" y="331">+ getName() : String</text>
+<text x="46" y="357">+ getEmail() : String</text>
+<text x="46" y="383">+ getAddress() : Address</text>
+<rect x="748" y="50" width="520" height="298" fill="white" stroke="#334155" stroke-width="2"/>
+<path d="M748 100 H1268 M748 198 H1268" stroke="#334155" stroke-width="2"/>
+<text class="title" x="1008.0" y="82" text-anchor="middle">Address</text>
+<text x="764" y="129">- street : String</text>
+<text x="764" y="155">- city : String</text>
+<text x="764" y="181">- postcode : String</text>
+<text x="764" y="227">+ Address()</text>
+<text x="764" y="253">+ Address(street : String, city : String, postcode : String)</text>
+<text x="764" y="279">+ getStreet() : String</text>
+<text x="764" y="305">+ getCity() : String</text>
+<text x="764" y="331">+ getPostcode() : String</text>
+<path d="M638 220 H748 M734 211 L748 220 L734 229" fill="none" stroke="#334155" stroke-width="2"/>
+<text x="693" y="203" text-anchor="middle">has an</text>
+</svg>

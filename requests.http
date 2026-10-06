@@ -1,0 +1,23 @@
+### Week 1: greeting
+GET http://localhost:8080/hello
+
+### Week 1: goodbye
+GET http://localhost:8080/goodbye
+
+### Week 1: status with date
+GET http://localhost:8080/status
+
+### Week 1: information
+GET http://localhost:8080/info
+
+### Week 2: sample product
+GET http://localhost:8080/products/1
+Accept: application/json
+
+### Week 2: nested customer and address
+GET http://localhost:8080/customers/1
+Accept: application/json
+
+### Swagger/OpenAPI definition
+GET http://localhost:8080/v3/api-docs
+Accept: application/json
